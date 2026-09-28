@@ -79,8 +79,6 @@ Os contratos de request e response estão documentados no Swagger: http://localh
 
 ### Erros
 
-Todas as respostas de erro seguem o formato [ProblemDetails (RFC 9457)](https://www.rfc-editor.org/rfc/rfc9457).
-
 | Status | Quando |
 |---|---|
 | `400` | Dados inválidos ou corpo da requisição malformado. Os erros vêm agrupados por campo. |
