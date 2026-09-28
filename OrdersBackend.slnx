@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OrdersBackend.Api/OrdersBackend.Api.csproj" />
+    <Project Path="src/OrdersBackend.Application/OrdersBackend.Application.csproj" />
+    <Project Path="src/OrdersBackend.Domain/OrdersBackend.Domain.csproj" />
+    <Project Path="src/OrdersBackend.Infrastructure/OrdersBackend.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OrdersBackend.Application.Tests/OrdersBackend.Application.Tests.csproj" />
+    <Project Path="tests/OrdersBackend.Domain.Tests/OrdersBackend.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
